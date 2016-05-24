@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .bounding-box-of-A4 {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: calc(210mm - 1px);
+            height: calc(297mm - 1px);
+            padding: 4px;
+            box-sizing: border-box;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="bb" class="bounding-box-of-A4">
+        Bounding Box of A4.<br>
+    </div>
+</body>
+</html>
